@@ -1,4 +1,4 @@
-Matlab-Image-Compression:
+MATLAB-Image-Compression:
 
 Compresses an image sized 8x by 8x pixels using the discrete cosine transform on the chromatic layers (and less on the intensity layers) of an image converted in YCbCr format.
 
