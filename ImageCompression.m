@@ -34,4 +34,4 @@ Cr_compressed = blockproc(Cr_block, [8 8], inv_transform);
 % Combining Y with the compressed Cb and Cr, and then converting to RGB.
 compressed_RGB = ycbcr2rgb(cat(3,Y_compressed,Cb_compressed,Cr_compressed));
 
-imwrite(compressed_RGB, "Compressed-House.jpg");
+imwrite(compressed_RGB, "Compressed-House.png");
